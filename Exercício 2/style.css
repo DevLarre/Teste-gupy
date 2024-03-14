@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Madimi One', sans-serif;
+}
+
+body {
+    background-color: #4d4b4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.fnacci {
+    text-align: center;
+    color: #fff;
+}
+
+#inputNumber{
+    display: block;
+    text-align: center;
+    width: 370px;
+    color: #fff;
+    background-color: rgba(92, 159, 235, 0.25);
+    border-radius: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.fnacci input::placeholder {
+    color: white;
+}
+
+.fnacci input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.fnacci input[type="number"]::placeholder {
+    color: white;
+    opacity: 0.7; 
+}
+
+.fnacci input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+.fnacci input[type="number"]::-webkit-inner-spin-button,
+.fnacci input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.buttonCalculate {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(92, 159, 235, 0.6);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+}
